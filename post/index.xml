@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on My New Hugo Site</title>
+    <link>https://chai88888888.github.io/post/</link>
+    <description>Recent content in Posts on My New Hugo Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 04 Aug 2019 14:04:11 +0800</lastBuildDate>
+    
+	<atom:link href="https://chai88888888.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>凯凯的博客</title>
+      <link>https://chai88888888.github.io/post/blog/</link>
+      <pubDate>Sun, 04 Aug 2019 14:04:11 +0800</pubDate>
+      
+      <guid>https://chai88888888.github.io/post/blog/</guid>
+      <description>首先，准备一个 8GB 或更大容量的 U盘，并备份好里面的所有资料。 下载好 macOS Mojave 正式版的安装程序备用，先不要启动安装。 打开 “应用程序 → 实用工具 → 磁盘工具”，将U盘「抹掉」(格式化) 成「Mac OS X 扩展（日志式）」格式、GUID 分区图，并将 U 盘命名为「Mojave」(下图序号3处)。注意：这个盘符名称必须与后面的命令里的名称一致，需要认真看清楚，很多新手容易出错在这里)  ￼ 打开 “应用程序→实用工具→终端”，将下面的一段命令复制并粘贴进去： 如要制作 macOS Mojave 启动盘，U盘名称要改成「Mojave」(必须与下面命令对应)，然后拷贝这段命令：sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia &amp;ndash;volume /Volumes/Mojave /Applications/Install\ macOS\ Mojave.app &amp;ndash;nointeraction  如要制作 macOS High Sierra 启动盘，U盘名称要改成 HighSierra (要与下面命令对应)，拷贝这段命令：sudo /Applications/Install\ macOS\ High\ Sierra.app/Contents/Resources/createinstallmedia &amp;ndash;volume /Volumes/HighSierra &amp;ndash;applicationpath /Applications/Install\ macOS\ High\ Sierra.app &amp;ndash;nointeraction
+制作「旧版本的 macOS Sierra」，U盘名称改成 Sierra，拷贝这段命令： sudo /Applications/Install\ macOS\ Sierra.app/Contents/Resources/createinstallmedia &amp;ndash;volume /Volumes/Sierra &amp;ndash;applicationpath /Applications/Install\ macOS\ Sierra.</description>
+    </item>
+    
+  </channel>
+</rss>
